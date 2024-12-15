@@ -1,0 +1,26 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h2{
+  margin-top: 2rem;
+  font-size: 10px;
+  color: aquamarine;
+  text-align: center;
+}
+section{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.sec-one{
+  background-attachment: fixed;
+  background-image: url("https://cdn.pixabay.com/photo/2022/02/18/18/53/breakfast-7021320_1280.jpg");
+}
+.sec-two{
+  background-image: url("https://cdn.pixabay.com/photo/2023/01/21/13/40/trees-7733878_1280.jpg");
+}

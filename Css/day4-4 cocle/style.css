@@ -1,0 +1,8 @@
+.frist {
+  height: 200px;
+  background-color: brown;
+}
+.sec {
+  height: calc(100vh - 200px);
+  background-color: aqua;
+}

@@ -1,0 +1,16 @@
+h1 {
+  color: aqua;
+  font-size: 40px;
+}
+.txt {
+  color: brown;
+  font-size: 10px;
+}
+.txt2 {
+  color: blueviolet;
+  font-size: 15px;
+}
+.txt,
+.txt2 {
+    font-size: 60px;
+}

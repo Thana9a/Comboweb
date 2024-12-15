@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+}
+.service{
+  top: 0;
+  position: fixed;
+  background-color: blue;
+  width: 100vw;
+}
+.service>a{
+  font-size: 2rem;
+  color: inherit;
+  margin: 0 0.5px;
+  text-decoration: none;
+}
+section{
+  background-color: aqua;
+  height: 500vh;
+}
+img{
+  width: 100vw;
+}

@@ -1,0 +1,19 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+}
+.bg{
+  height: 1200px;
+  background-image: url("https://cdn.pixabay.com/photo/2024/11/13/08/47/city-9193823_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

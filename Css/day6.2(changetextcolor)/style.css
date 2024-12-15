@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+.box {
+  height: 500px;
+  background-image: linear-gradient(120deg,red, black,purple,rgb(25,40,0),rgba(0,0,30,23));
+}
+.image{
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  background-image: linear-gradient(120deg ,rgba(0,0,0,1),rgba(0,0,0,0),rgb(240, 240, 240)),
+   url("https://cdn.pixabay.com/photo/2024/11/13/08/47/city-9193823_1280.jpg");
+}

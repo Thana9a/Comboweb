@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+}
+h2{
+  background-color: aqua;
+  text-align: center;
+  font-size: 25px;
+  width: 300px;
+  padding: 1rem;
+  position:relative;
+  top: 1200px;
+  right: -100px;
+}
+.vos{
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 25px;
+  width: 300px;
+  position: absolute;
+  top:1000px;
+  right: 100px;
+}

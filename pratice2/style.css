@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2024/11/13/08/47/city-9193823_1280.jpg");
+}
+.login{
+    background-color: rgba(0, 0, 1, 0.1);
+    width: 300px;
+    height: 270px;
+    position: relative;
+    border-radius: 25px;
+    margin: 200px auto;
+}
+input{
+    position: absolute;
+    margin: 50px 50px;
+}
+#email{
+    width: 230px;
+    height: 35px;
+    position: absolute;
+    right: -20px;
+    border-radius: 10px;
+    background-color: rgba(23, 22, 22, 0.251);
+    border: none;
+    outline: none;
+
+}
+input::placeholder{
+    font-family: "popins" ,sans-serif;
+    font-size: 15px;
+}
+#password{
+    width: 230px;
+    height: 35px;
+    position: absolute;
+    top: 45px;
+    right: -20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(23, 22, 22, 0.251);
+    outline: none;
+}
+#password && #email::placeholder{
+    color: rgb(184, 187, 190);
+}
+.bu-login{
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    top: 140px;
+    right: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(55, 146, 49, 0.731);
+}
+.bu-register{
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    top: 180px;
+    right: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.902);
+
+}
+.for-get-password{
+    position: absolute;
+    top: 220px;
+    right: 120px;
+}
+.title{
+    position: absolute;
+    top: 3px;
+    right: 115px;
+    font-style: normal;
+    font-weight: 100;
+}
+body {
+    font-family: "Poppins", serif;
+    font-style: normal;
+}

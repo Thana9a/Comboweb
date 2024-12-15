@@ -1,0 +1,21 @@
+.frist {
+  height: 150px;
+  width: 150px;
+  background-color: brown;
+  overflow: scroll;
+  /*overflow heden for hid letter or anything box */
+}
+.sec {
+  height: 50px;
+}
+.major{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(12, 66, 66);
+  overflow: scroll;
+}
+.deviced{
+  width: 100px;
+  height: 300px;
+  background-color: rgb(95, 63, 23);
+}

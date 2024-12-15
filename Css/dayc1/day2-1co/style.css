@@ -1,0 +1,11 @@
+.wrapper {
+  color: red;
+}
+p{
+  color: aqua;
+}
+p > strong {
+  color: green;
+}
+
+

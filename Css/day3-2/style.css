@@ -1,0 +1,15 @@
+.heading{
+  background-color: bisque;
+  width: 100%;
+  height: 500px;
+}
+.contener{
+  background-color: aqua;
+  width: 100%;
+  height: 500px;
+}
+.child{
+  background-color: blueviolet;
+  width: 70px;
+  height: 60px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Money Saver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monthly Money Saver</h1>
+        
+        <!-- Monthly Income Input -->
+        <label for="monthlyIncome">Enter your monthly income ($):</label>
+        <input type="number" id="monthlyIncome" placeholder="Enter amount" /><br>
+
+        <!-- Weekly Gas Expense Input -->
+        <label for="weeklyGas">Enter your weekly gas expense ($):</label>
+        <br>
+        <input type="number" id="weeklyGas" placeholder="Enter weekly gas amount" />
+
+        <!-- Button to add additional expenses -->
+        <h3>Additional Expenses</h3>
+        <div id="additionalExpensesContainer">
+            <!-- Placeholder for dynamically added expenses -->
+        </div>
+        <button onclick="addExpense()">Add Another Expense</button>
+        
+        <button onclick="calculateBudget()">Calculate</button>
+
+        <h2>Budget Allocation</h2>
+        <div id="output">
+            <p>30% (Essentials): $<span id="essentials"></span></p>
+            <p>20% (Savings): $<span id="savings"></span></p>
+            <p>50% (Wants, after gas and additional expenses): $<span id="wants"></span></p>
+            <p>Daily Spend (50% Wants): $<span id="dailyWantsSpend"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

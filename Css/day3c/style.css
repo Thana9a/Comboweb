@@ -1,0 +1,23 @@
+.heading {
+  font-size: 45px;
+}
+.txt {
+  font-size: 25px;
+}
+.bluetxt {
+  color: blue;
+}
+div > nav > ul > li {
+    color: blueviolet;
+    color:calc(10)
+}
+div > nav > ul > li ~ p{
+    color: gold;
+}
+.secendParagraph >div>nav>ul>li + p{
+    color: azure;
+} 
+input[type="email"]{
+    color: deepskyblue;
+    font-size: 30px;
+}
